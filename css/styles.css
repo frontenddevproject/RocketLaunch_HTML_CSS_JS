@@ -1,0 +1,69 @@
+body{
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #cacaca;
+}
+.wrapper{
+   position: relative;
+   display: flex;
+   margin: 0;
+   padding: 0; 
+}
+.image-container{
+   height: 100vh;
+   width: 50vw;
+}
+.image{
+   height: 50%;
+   position: absolute;
+   bottom:0%;
+   left:30%;
+}
+button{
+   height: 50px;
+   width: 100px;
+   margin: 20px;
+   cursor: pointer;
+}
+.content-container{
+   display: flex;
+   flex-direction: column;
+   flex: 0 1;
+}
+.button-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.refueling-tank{
+   width: 300px;
+   height: 40px;
+   border: 2px solid #000;
+   border-radius: 8px;
+   position: relative;
+}
+.fuel{
+   position: absolute;
+   top:0;
+   left:0;
+   bottom:0;
+   background: green;
+   height:100%;
+   width:0%;
+   border-radius: 6px;
+}
+.visual-content{
+   display: flex;
+   flex-direction: column;
+}
+.fuel-counter{
+   margin: 0;
+   padding: 0;
+   position: absolute;
+   top:25%;
+   left:50%;
+   transform: translate(-50%);
+   font-size: 20px;
+   z-index: 1;
+}
